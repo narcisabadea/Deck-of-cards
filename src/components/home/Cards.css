@@ -1,0 +1,71 @@
+.card-container {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-top: 5%;
+}
+.card-container-deck {
+  position: relative;
+  width: 100%;
+  display: flex;
+  direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-container-title {
+  font-size: 40px;
+  padding-bottom: 2%;
+}
+.card-container-btn {
+  display: flex;
+  direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.filter-type-btn {
+  height: 30px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 30px;
+  color: white;
+  border-radius: 2px;
+  background-color: transparent;
+  border: none;
+}
+.filter-type-btn-icon {
+  font-size: 16px;
+}
+
+.hp-shuffle-btn {
+  height: 30px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  background-color: #0a6c03;
+  border-radius: 2px;
+}
+
+.hp-draw-btn {
+  height: 30px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  background-color: #0a6c03;
+  border-radius: 2px;
+}
+
+.hp-sort-btn {
+  height: 30px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 30px;
+  color: white;
+  background-color: #0a6c03;
+  border-radius: 2px;
+}

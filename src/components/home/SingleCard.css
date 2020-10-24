@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 15em;
+  height: 21em;
+  background-color: #ffffff;
+  box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
+  border-radius: 0.25em;
+  margin-bottom: 1em;
+  margin-right: 1em
+}
+
+.card-top-left {
+  position: absolute;
+  top: 1em;
+  left: 1.5em;
+}
+
+
+.card-bottom-right {
+  position: absolute;
+  bottom: 1em;
+  right: 1.5em;
+  transform: rotate(180deg);
+}
+
+.card-corner-label, .card-corner-suit {
+  text-align: center;
+  font-size: 1.5em;
+  transform: translate(-50%, 0);
+}
+
+
+.card-suits {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 17.5%;
+    height: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7em;
+  }
+  .card-suit {
+    font-size: 1.5em;
+    position: absolute;
+  }
+  .card-suit.mirrored {
+    transform: rotate(180deg);
+  }
