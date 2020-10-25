@@ -19,12 +19,12 @@ To run the project on your machine use npm start for a dev server. Navigate to h
 ## Screenshots
 * Shuffle deck of cards
 
-![Shuffle](src/public/shuffle.png?raw=true "Shuffle cards")
+![Shuffle](public/shuffle.png?raw=true "Shuffle cards")
 
 * Draw any number of cards
 
-![Draw](src/public/draw.png?raw=true "Draw cards")
+![Draw](public/draw.png?raw=true "Draw cards")
 
 * Sort drawn cards
 
-![Sort](src/public/sort.png?raw=true "Sort drawn cards")
+![Sort](public/sort.png?raw=true "Sort drawn cards")
