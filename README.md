@@ -8,11 +8,7 @@ The application is also live [HERE](https://deckofcards.netlify.app/).
 
 This project was created using [React Create App](https://reactjs.org/docs/create-a-new-react-app.html) with CSS.
 
-To run the project on your machine use npm start for a dev server. 
-
-### `npm start`
-
-Navigate to http://localhost:3000/.
+To run the project on your machine use npm start for a dev server. Navigate to http://localhost:3000/.
 
 ## Features
 
